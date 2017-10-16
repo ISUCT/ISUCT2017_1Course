@@ -1,1 +1,3 @@
-# ISUCT2017_1Course
+# ISUCT2017_1Course 
+
+Соловьёва Елена
