@@ -79,7 +79,7 @@ public class Program {
                 }
                 else repeat();
                 }
-                    catch(Exception e   ) {
+                    catch(Exception e) {
                     System.exit(0);
             }
 
