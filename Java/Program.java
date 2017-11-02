@@ -39,8 +39,9 @@ public class Program {
 
                 {
                     lib1.get(i);
-                    System.out.println(lib1.get(i) + " ");
+                    System.out.print(lib1.get(i) + " ");
                 }
+                System.out.println(" ");
                 break;
             case 2:
                 System.out.println("Введите число, которое хотите перевести");
