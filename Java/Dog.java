@@ -23,7 +23,7 @@ class Dog {
    }
 
     public void Act() {
-        System.out.println("√‡‚ √‡‚");
+        System.out.println("Woof woof");
     }
 
     public void AboutMe() {
