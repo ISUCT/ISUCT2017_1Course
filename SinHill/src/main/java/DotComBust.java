@@ -39,7 +39,7 @@ public class DotComBust {
 
     for (DotCom dotComToTest : dotComList) {
        result = dotComToTest.checkYourself(userGuess);
-       if (result.equals("Промах")) {       
+       if (result.equals("Попал")) {
            break;
        }
        if (result.equals("Потопил")) {

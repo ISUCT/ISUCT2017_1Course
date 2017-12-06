@@ -17,7 +17,9 @@ public class GameHelper {
             BufferedReader is = new BufferedReader(
                     new InputStreamReader(System.in));
             inputLine = is.readLine();
-            if (inputLine.length() == 0) return null;
+            if (inputLine.length() == 0) {
+                return null;
+            }
         } catch (IOException e) {
             System.out.println("IOException: " + e);
         }
@@ -51,25 +53,31 @@ public class GameHelper {
                     if (location >= gridSize) {
                         succes = false;
                     }
+                    if (x>0 && (location % gridLength ==0)){
+                        succes = false;
+                    }
                 } else {
+                    succes = false;
                     // System.out.print("используется" + location);
                 }
             }
         }
         int x = 0;
         int row = 0;
-        int colum = 0;
+        int column = 0;
         // System.out.println("\n");
         while (x < comSize) {
             grid[coords[x]] = 1;
             row = (int) (coords[x] / gridLength);
-            colum = coords[x] % gridLength;
-            temp = String.valueOf(alphabet.charAt(colum));
+            column = coords[x] % gridLength;
+            temp = String.valueOf(alphabet.charAt(column));
 
             alphaCells.add(temp.concat(Integer.toString(row)));
             x++;
-            //System.out.ptintln("\n");
+            //System.out.println(" coords "+x+" w " + alphaCells.get(x-1));
         }
+        // System.out.println("\n");
+
         return alphaCells;
 
     }

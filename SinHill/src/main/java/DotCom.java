@@ -18,11 +18,12 @@ public class DotCom {
         if (index >= 0) {
             locationCelles.remove(index);
 
-            if (locationCelles.isEmpty()) ;
-            result = "Потопил";
-            System.out.println("Ой! Вы потопили" + name + " : (");
-        } else {
-            result = "Попал";
+            if (locationCelles.isEmpty()) {
+                result = "Потопил";
+                System.out.println("Ой! Вы потопили" + name + " : (");
+            } else {
+                result = "Попал";
+            }
         }
         return result;
     }
