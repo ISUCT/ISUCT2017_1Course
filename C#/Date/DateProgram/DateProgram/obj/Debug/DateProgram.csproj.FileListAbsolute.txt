@@ -1,0 +1,12 @@
+D:\VS\Date\DateProgram\DateProgram\bin\Debug\DateProgram.exe.config
+D:\VS\Date\DateProgram\DateProgram\bin\Debug\DateProgram.exe
+D:\VS\Date\DateProgram\DateProgram\bin\Debug\DateProgram.pdb
+D:\VS\Date\DateProgram\DateProgram\obj\Debug\DateProgram.csprojResolveAssemblyReference.cache
+D:\VS\Date\DateProgram\DateProgram\obj\Debug\DateProgram.Form1.resources
+D:\VS\Date\DateProgram\DateProgram\obj\Debug\DateProgram.Properties.Resources.resources
+D:\VS\Date\DateProgram\DateProgram\obj\Debug\DateProgram.csproj.GenerateResource.Cache
+D:\VS\Date\DateProgram\DateProgram\obj\Debug\DateProgram.csproj.CoreCompileInputs.cache
+D:\VS\Date\DateProgram\DateProgram\obj\Debug\DateProgram.exe
+D:\VS\Date\DateProgram\DateProgram\obj\Debug\DateProgram.pdb
+D:\VS\Date\DateProgram\DateProgram\bin\Debug\Newtonsoft.Json.dll
+D:\VS\Date\DateProgram\DateProgram\bin\Debug\Newtonsoft.Json.xml
