@@ -18,26 +18,21 @@ namespace DateProgram
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            Date.ud.day = Convert.ToInt32(textBox1.Text);
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            Date.ud.month = Convert.ToInt32(textBox2.Text);
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-            Date.ud.year = Convert.ToInt32(textBox3.Text);
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             date.CalcDate();
-            label5.Text = date.userDate;
+            textBox4.Text = date.result;
             date.SaveData();
+            label6.Text = date.saveStr;
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            Date.ud.year = dateTimePicker1.Value.Year;
+            Date.ud.month = dateTimePicker1.Value.Month;
+            Date.ud.day = dateTimePicker1.Value.Day;
+            Date.ud.hour = dateTimePicker1.Value.Hour;
+            Date.ud.minute = dateTimePicker1.Value.Minute;
         }
     }
 }
