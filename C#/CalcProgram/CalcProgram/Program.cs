@@ -33,6 +33,7 @@ namespace CalcProgram
         static void Main(string[] args)
         {
             Program program = new Program();
+            Console.WriteLine("Variant 4");
             program.CalculationWithDelta(program.x_1);
             Console.WriteLine("------------------------");
             program.CalculationWithoutDelta(program.values);
